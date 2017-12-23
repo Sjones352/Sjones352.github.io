@@ -2,19 +2,20 @@
 <html>
 <head>
   <title>Index</title>
-  <link rel="shortcut icon " type="image/x-icon " href="favicon.ico " >
-  <script src="validation.js " type="text/javascript "></script>
-  <link rel="stylesheet " type="text/css " href="CSS/style.css ">
+  <link rel="shortcut icon" type="image/x-icon " href="favicon.ico" >
+  <link rel="stylesheet " type="text/css " href="css/style.css ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript" src="js/validation.js" ></script>
   <title>Sandra Jones</title>
   </head>
 
   <body>
-    <div class="lead">
+    <div id="lead-overlay" class="lead">
     <div class="banner">
     <h1>Sandra Jones</h1>
     <p>A junior web developer specializing in making websites look spectacular using the latest web technologies.</p>
-    <p><a href="https://github.com/Sjones352"><i class="fa fa-github fa-1" aria-hidden="true"></i> Github</a> | <a href="https://www.linkedin.com/in/sandra-diana-jones-362a1218/"><i class="fa fa-linkedin fa-1" aria-hidden="true"></i> LinkedIn</a></p>
+    <a id='btn' class="button button-ghost" download>Download Resume</a>
   </div>
 </div>
 
@@ -36,18 +37,48 @@
     </div>
 </div>
 
+<section class="me about">
+<div id="projects" class="container">
+  <div class="row">
+    <div class="col-md-4">
+    <h2 class="heading">Projects</h2>
+    </div>
+    <div class="col-md-8">
+    <p><a href="http://dsva-appeals-certification-demo-1715715888.us-gov-west-1.elb.amazonaws.com/styleguide" target="_blank">Caseflow Style Guide</a> (Junior Developer) <br /> <br /> A React component based library for the DSVA
+      <a href="https://medium.com/the-u-s-digital-service/new-tool-launches-to-improve-the-benefits-claim-appeals-process-at-the-va-59c2557a4a1c#.t1qhhz7h8">Appeals Modernization</a> project.
+    Based on accessible UI components from the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, the style guide allows
+    designers to create mockups that keep the entire system consistent for the user and allows developers
+    to quickly build prototypes based on common code.</p>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <section class="wip about">
+  <div id="codepen" class="container">
+    <div class="row">
+    <div class="col-md-4">
+    <h2 class="heading">Languagesdownload</h2>
+  </div>
+  <div class="col-md-8">
+    <p>Simple code snippets using only HTML, CSS, and JS.
+      These are finished products of <a href="https://github.com/mmlumba/beginner-js-projects">Beginner JS Projects</a>,
+      a series of lessons used to teach aspiring developers how to create simple websites/web applications.</p>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
 <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2017 SANDRA JONES
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
+                    <small class="made-by-me">
+                        Copyright &copy; 2017 SANDRA D JONES
+                    </small>
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
@@ -65,6 +96,5 @@
             </div>
         </div>
     </footer>
-
   </body>
   </html>

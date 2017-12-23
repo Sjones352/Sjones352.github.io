@@ -8,28 +8,33 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background-color: #f4f3fb;
   font-size: 16px;
+  margin: 0;
 }
 
-.text {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+
+a.button-ghost {
+    margin: 6.0rem 0 0;
+    font-size: 1.2rem;
+    border: 2px solid #FED766;
+    height: auto;
 }
 
 .button {
-    background-color: #f68b1f;
-    color: white;
+    background-color: transparent;
     padding: 1rem 2rem;
-    border-color: transparent;
     cursor: pointer;
     width: auto;
-    margin: 0.6rem 0.6rem 1rem 0;
     font-weight: 700;
     text-align: center;
     display: inline-block;
+    border-radius: 50px;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #c6bbf2;
 }
 
 .banner {
@@ -56,15 +61,14 @@ h2, h3, p {
 }
 
 .about {
-    padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9;
+  padding: 100px 30px;
 }
 
 .about p {
     text-align: left;
     color: #74808a;
     margin: 0;
-   font-family: 'Patua One', 'sans-serif', Arial;
+    font-family: 'Patua One', 'sans-serif', Arial;
 }
 
 
@@ -145,113 +149,19 @@ h3 {
     background-size: cover;
     background-position: center;
     width: 100% !important;
+    margin-bottom: 30px;
   }
 
-  #lead-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(33,125,187,0.8);
-    z-index: 1;
-}
-
-.button-border:hover {
-    opacity: 0.8;
-}
-
-.button-border:active {
-    opacity: 0.6;
-}
-
-.button-border:focus {
-    outline: none;
-}
-
-.main-footer {
-   padding: 54px 0 20px;
-   background: white;
-   border-top: 1px solid #E3E3E3;
-   padding: 32px 0;
-   margin-top: -5em;
-}
-
-.clearfix {
-   float: left;
-   padding: 15px 15px;
-   font-size: 18px;
-   line-height: 20px;
-   height: 50px;
+footer {
+    padding: 150px;
+    background-color: #252a30;
+    color: #fff;
 }
 
 
-.btn-push-right {
-  float: right;
-}
-.btn-submit {
-   margin-top: 30px;
-   margin-bottom: 15px;
- }
-
-.footer-text {
-  color: #fff !important;
-  font-size: 13px !important;
-}
-
-.footer-text:hover{
-   color:blue !important;
-}
-
-.container-lg {
-    max-width: 1012px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-.button-border {
-    background-color: #f68b1f !important;
-    width: 36% !important;
-    line-height: 1;
-    outline: none;
-    padding: 1rem 2rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; 
-    border-color: transparent !important;
-    margin: 0 0.6rem 1rem 0
-}
-
-.content-color {
-    background-color: #f1f6f9 !important;
-    margin-top: 40px;
-}
-
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
+footer p.made-by-me {
+    margin: 9px 0;
+    color: #fff;
 }
 
 .copyright {
@@ -267,10 +177,6 @@ input[type=submit]:hover {
     padding-right: 15px;
 }
 
-.top {
-    text-align: center;
-}
-
 .col-sm-2 {
     width: 16.66666667%;
     float: left;
@@ -280,19 +186,9 @@ input[type=submit]:hover {
     padding-right: 15px;
 }
 
-.top span {
-    cursor: pointer;
-    display: block;
-    margin: 15px auto 0 auto;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 3px solid #b9bfc4;
-    text-align: center;
-}
-
 .social {
     text-align: right;
+
 }
 
 .social li {
@@ -302,6 +198,30 @@ input[type=submit]:hover {
 
 .social a {
     display: block;
-    color: #74808a;
+    color: #fff;
     padding: 10px;
+    display: inline-block;
 }
+
+.social a:hover {
+  color: #2d60db;
+}
+
+.me {
+  background-color: #fff;
+}
+
+section {
+  padding: 0 0 100px;
+}
+
+small {
+    text-align: center;
+    line-height: 190%;
+    font-size: .70em;
+ }
+
+.wip {
+    background-color: #eee;
+}
+
