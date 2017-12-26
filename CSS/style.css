@@ -13,10 +13,18 @@ body {
 
 
 a.button-ghost {
-    margin: 6.0rem 0 0;
-    font-size: 1.2rem;
+    margin: 4.0rem 0 0;
+    font-size: 1.7rem;
     border: 2px solid #FED766;
     height: auto;
+}
+
+.col-md-4 {
+    width: 20.33333333% !important;
+}
+
+.col-md-8 {
+    width: 70.66666667% !important;
 }
 
 .button {
@@ -70,38 +78,6 @@ h2, h3, p {
     margin: 0;
     font-family: 'Patua One', 'sans-serif', Arial;
 }
-
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-.col-md-4 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 12.33333333%;%;
-    float: left;
-}
-
-.col-md-8 {
-    width: 70.66666667%;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: left;
-    min-width: 992px;
-}
  
  .heading {
     position: relative;
@@ -142,19 +118,16 @@ h3 {
     position: relative;
     max-height: 1080px;
     overflow: hidden;
-    height: auto;
-    min-height: auto;
     padding: 100px 15px;
     background:  url('../images/laptop.jpg') no-repeat 0 15px;
     background-size: cover;
     background-position: center;
     width: 100% !important;
-    margin-bottom: 30px;
   }
 
 footer {
-    padding: 150px;
-    background-color: #252a30;
+    padding: 100px;
+    background-color: #1b131b;
     color: #fff;
 }
 
@@ -166,24 +139,6 @@ footer p.made-by-me {
 
 .copyright {
     padding-top: 20px;
-}
-
-.col-sm-5 {
-    width: 41.66666667%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.col-sm-2 {
-    width: 16.66666667%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .social {
@@ -208,7 +163,7 @@ footer p.made-by-me {
 }
 
 .me {
-  background-color: #fff;
+  background-color: #f9f5f3;
 }
 
 section {
@@ -223,5 +178,20 @@ small {
 
 .wip {
     background-color: #eee;
+}
+
+.hidden {
+  display: none;
+  color: red;
+}
+
+.show {
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
 }
 
