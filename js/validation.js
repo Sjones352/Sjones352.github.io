@@ -26,7 +26,7 @@ $(document).ready(function() {
 	});
 
 	$("#hover").hover(function(e) {
-		$('#hide').html('Live your best life');
+		$('#hide').html("Opportunities don't happen. You create them.");
 		$(this).parent().addClass("show");
 		$('#hide').fadeIn(2000);
 		$('#hover').hide();

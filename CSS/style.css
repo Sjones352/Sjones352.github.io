@@ -11,6 +11,15 @@ body {
   margin: 0;
 }
 
+.nav a {
+  font-size: 13px;
+  padding: 93px 32px 40px;
+  color: #fff;
+}
+
+.nav a:hover {
+  color: red !important;
+}
 
 a.button-ghost {
     margin: 4.0rem 0 0;
@@ -46,7 +55,7 @@ a.button-ghost {
 }
 
 .banner {
-  padding: 20px 0px;
+  padding: 115px 0 200px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -57,7 +66,7 @@ a.button-ghost {
 
 .banner h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 3em;
+  font-size: 55px;
   color: #c6bbf2;
   margin: 5px;
   font-weight: 700;
@@ -114,15 +123,15 @@ h3 {
     top: auto;
 }
 
+.pepe {
+  padding: 100px 15px;
+}
+
 .lead {
-    position: relative;
-    max-height: 1080px;
-    overflow: hidden;
-    padding: 100px 15px;
+    /*padding: 100px 15px;*/
     background:  url('../images/laptop.jpg') no-repeat 0 15px;
     background-size: cover;
     background-position: center;
-    width: 100% !important;
   }
 
 footer {
@@ -191,7 +200,4 @@ small {
   font-family: Arial, sans-serif;
 }
 
-.navbar {
-  margin-bottom: 0 !important;
-}
 
