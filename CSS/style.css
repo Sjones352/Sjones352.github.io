@@ -1,85 +1,203 @@
 body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
-
-.city {
-  color: white;
-  padding: 10px;
-} 
-
-.monument {
-  width: 250px;
-  height: 300px;
+  overflow-y: scroll;
+  top: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: 100% !important;
+  overflow-wrap: break-word;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  background-color: #f4f3fb;
+  font-size: 16px;
+  margin: 0;
 }
 
-.form {
-    border: 3px;
-    color: black;
+.nav a {
+  font-size: 13px;
+  padding: 93px 32px 40px;
+  color: #fff;
 }
 
-.text-center {
-    text-align: center;
+.nav a:hover {
+  color: red !important;
 }
 
-.container {
-    padding: 16px;
-    width: 50%;
-    top: 40%;
-    left: 40%;
-    margin-top: -150px;
-    margin-left: -200px;
-    position: absolute;
-    border: 3px solid #f1f1f1;
+a.button-ghost {
+    margin: 4.0rem 0 0;
+    font-size: 1.7rem;
+    border: 2px solid #FED766;
+    height: auto;
 }
 
-.text {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+.col-md-4 {
+    width: 20.33333333% !important;
+}
+
+.col-md-8 {
+    width: 70.66666667% !important;
 }
 
 .button {
-    background-color: #f68b1f;
-    color: white;
+    background-color: transparent;
     padding: 1rem 2rem;
-    border-color: transparent;
     cursor: pointer;
     width: auto;
-    margin: 0.6rem 0.6rem 1rem 0;
     font-weight: 700;
     text-align: center;
     display: inline-block;
+    border-radius: 50px;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
 }
 
-/* Add a hover effect for buttons */
 .button:hover {
-    opacity: 0.8;
+  background-color: #c6bbf2;
 }
 
-.button-border {
-    line-height: 1;
-    outline: none;
-    font-family: Source Sans Pro; 
-
+.banner {
+  padding: 115px 0 200px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.val_error {
-   color: red;
-   text-align:center;
+.banner a {
+  color: #fff;
 }
 
-.time {
-  font-weight: bold;
+.banner h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  color: #c6bbf2;
+  margin: 5px;
+  font-weight: 700;
+}
+
+h2, h3, p {
+  font-family: Arial, sans-serif;
   color: black;
-  float: right;
-  padding: 10px 15px 9px 15px !important;
 }
+
+.about {
+  padding: 100px 30px;
+}
+
+.about p {
+    text-align: left;
+    color: #74808a;
+    margin: 0;
+    font-family: 'Patua One', 'sans-serif', Arial;
+}
+ 
+ .heading {
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.about h2 {
+  color: #374054;
+}  
+
+h2 {
+  font-family: 'Patua One', sans-serif;
+  color: black;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: 'Patua One', sans-serif;
+  color: #9A84A3;
+  font-size: 24px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.lead-content {
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
+}
+
+.pepe {
+  padding: 100px 15px;
+}
+
+.lead {
+    /*padding: 100px 15px;*/
+    background:  url('../images/laptop.jpg') no-repeat 0 15px;
+    background-size: cover;
+    background-position: center;
+  }
+
+footer {
+    padding: 100px;
+    background-color: #1b131b;
+    color: #fff;
+}
+
+
+footer p.made-by-me {
+    margin: 9px 0;
+    color: #fff;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+.social {
+    text-align: right;
+
+}
+
+.social li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.social a:hover {
+  color: #2d60db;
+}
+
+.me {
+  background-color: #f9f5f3;
+}
+
+section {
+  padding: 0 0 100px;
+}
+
+small {
+    text-align: center;
+    line-height: 190%;
+    font-size: .70em;
+ }
+
+.wip {
+    background-color: #eee;
+}
+
+.hidden {
+  display: none;
+  color: red;
+}
+
+.show {
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+
