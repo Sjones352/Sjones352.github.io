@@ -15,11 +15,18 @@ body {
   font-size: 13px;
   padding: 93px 32px 40px;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .nav a:hover {
-  color: red !important;
+  color: red !important; 
 }
+
+.nav >li >a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+  }
 
 a.button-ghost {
     margin: 4.0rem 0 0;
@@ -78,14 +85,17 @@ h2, h3, p {
 }
 
 .about {
-  padding: 100px 30px;
+  padding: 150px 30px;
 }
 
 .about p {
     text-align: left;
-    color: #74808a;
     margin: 0;
     font-family: 'Patua One', 'sans-serif', Arial;
+    color: #868686;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
 }
  
  .heading {
@@ -123,12 +133,11 @@ h3 {
     top: auto;
 }
 
-.pepe {
+.main {
   padding: 100px 15px;
 }
 
 .lead {
-    /*padding: 100px 15px;*/
     background:  url('../images/laptop.jpg') no-repeat 0 15px;
     background-size: cover;
     background-position: center;
@@ -168,7 +177,7 @@ footer p.made-by-me {
 }
 
 .social a:hover {
-  color: #2d60db;
+  color: red;
 }
 
 .me {
