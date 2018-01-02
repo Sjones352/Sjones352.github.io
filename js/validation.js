@@ -26,7 +26,7 @@ $(document).ready(function() {
 	});
 
 	$("#hover").hover(function(e) {
-		$('#hide').html("Opportunities don't happen. You create them.");
+		$('#hide').html("Opportunities don't happen, you create them!");
 		$(this).parent().addClass("show");
 		$('#hide').fadeIn(2000);
 		$('#hover').hide();
