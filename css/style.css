@@ -67,7 +67,7 @@ body {
 }
 
 .banner h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', Times;
     font-size: 55px;
     color: #fbfaff;
     margin: 5px;
@@ -91,7 +91,7 @@ p {
     font-family: 'Patua One', 'sans-serif', Arial;
     color: #868686;
     font-size: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 
@@ -208,3 +208,4 @@ small {
     color: #fff;
     font-family: Arial, sans-serif;
 }
+
