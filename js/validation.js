@@ -36,7 +36,7 @@ $(document).ready(function() {
 	});
 
 	$("#btn").click(function(e) {
-		var url = 'sandrajonesresume.pdf';
+		var url = 'sandraDJonesResume.pdf';
 		e.preventDefault();
 		window.location.href = url;
 
