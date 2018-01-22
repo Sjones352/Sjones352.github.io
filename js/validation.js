@@ -3,7 +3,6 @@
 $(document).ready(function() {
 
 	var scrollLink = $('.scroll');
-
 	scrollLink.click(function(e) {
 		e.preventDefault();
 		$('body,html').animate({
@@ -25,16 +24,32 @@ $(document).ready(function() {
 
 	});
 
-	$("#hover").hover(function(e) {
-		$('#hide').html("Opportunities don't happen, you create them!");
-		$(this).parent().addClass("show");
-		$('#hide').fadeIn(2000);
-		$('#hover').hide();
-		$('#hide').delay(2000);
-		$('#hide').fadeOut(500);
+	
+    $('.tlt').textillate({
+      in: {effect: 'rollIn', delay:100},
+      out:{ effect: 'rollOut', sync:true},
+      loop: false
 
-	});
+    });
 
+
+   $('#hover').textillate({
+
+      in: {
+           shuffle: false,
+           delay:4000,
+           sync: true
+       },
+       out: {
+       	     effect: 'fadeOutRightBig',
+             shuffle: false,
+             sync: true
+       },
+       loop: false
+
+    });
+
+    
 	$("#btn").click(function(e) {
 		var url = 'sandraDJonesResume.pdf';
 		e.preventDefault();
